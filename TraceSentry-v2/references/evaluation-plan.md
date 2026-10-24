@@ -8,7 +8,9 @@ Test whether TraceSentry improves root-cause ranking and safe reporting over the
 
 Build at least 20 reproducible scenarios with ground-truth labels and reproducible artifacts:
 1. direct regression in the latest commit;
-2. relevant older commit, with a newer unrelated commit as a decoy;
+2. relevant older commit, with a newer unrelated commit as a decoy;tHub credentials for Git, then run:
+
+
 3. error in a function called by the failing endpoint;
 4. upstream/downstream service boundary with no stack trace;
 5. dependency/lockfile incompatibility;
